@@ -1,0 +1,19 @@
+{
+    "name": "gustavogenaro/restaurante",
+    "authors": [
+        {
+            "name": "Luiz Gustavo Genaro",
+            "email": "luizgenaro@unisepe.com.br",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+    	"slim/slim":"2.0",
+    	"rain/raintpl":"3.0.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Restaurante\\": "vendor\\restauranteclass\\php-classes\\src"
+        }
+    }
+}
