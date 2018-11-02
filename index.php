@@ -29,9 +29,7 @@ $app->get('/', function() { #acessa a pagina login (sem restrições)
             "footer"=>false
         ]);
 
-    	$page->setTpl("index", [
-            'error'=>ApiUnisepe::getError()
-        ]);
+    	$page->setTpl("index");
 	 
 
 });
